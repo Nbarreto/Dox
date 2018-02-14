@@ -412,7 +412,7 @@ footer {
         padding: 2em 0 5em 5em;
         position: relative;
       }
-
+    }
 /* DASHBOARD */
 .dashboard {
    background:#F7F7F7;
@@ -460,6 +460,9 @@ footer {
    width:16px;
    text-align: center;
    margin-right:8px;
+ }
+ .active {
+   background-color: rgba(1, 0, 0, .3);
  }
 
  /* LEFT NAVBAR SETTINGS */
@@ -542,18 +545,18 @@ footer {
      width:90%;
      position: relative;
    }
-   .content-item {
-     width:46%;
-     margin:0 2% 25px;
-     float:left;
-     display:block;
-   }
+ .content-item {
+   width:46%;
+   margin:0 2% 25px;
+   float:left;
+   display:block;
  }
+}
 /* Tablets */
- @media (min-width:768px) {
-   .content {
-     padding:1.5em 5%;
-     float:right;
+@media (min-width:768px) {
+  .content {
+    padding:1.5em 5%;
+    float:right;
      width:90%;
      position: relative;
    }
